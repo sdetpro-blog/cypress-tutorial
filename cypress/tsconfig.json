@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "sourceMap": false,
+    "outDir": "../dist/out-tcs",
+    "target": "es2015",
+    "lib": ["es2015", "dom"],
+    "types": [
+      "cypress",
+      "node",
+      "reflect-metadata"
+    ]
+  },
+  "include": ["**/*.ts"]
+}

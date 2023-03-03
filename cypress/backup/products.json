@@ -1,0 +1,38 @@
+[
+  {
+    "itemName": "Samsung galaxy s6",
+    "itemPrice": "$360"
+  },
+  {
+    "itemName": "Nokia lumia 1520",
+    "itemPrice": "$820"
+  },
+  {
+    "itemName": "Nexus 6",
+    "itemPrice": "$650"
+  },
+  {
+    "itemName": "Samsung galaxy s7",
+    "itemPrice": "$800"
+  },
+  {
+    "itemName": "Iphone 6 32gb",
+    "itemPrice": "$790"
+  },
+  {
+    "itemName": "Sony xperia z5",
+    "itemPrice": "$320"
+  },
+  {
+    "itemName": "HTC One M9",
+    "itemPrice": "$700"
+  },
+  {
+    "itemName": "Sony vaio i5",
+    "itemPrice": "$790"
+  },
+  {
+    "itemName": "Sony vaio i7",
+    "itemPrice": "$790"
+  }
+]

@@ -1,0 +1,105 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-12-08T00:36:04.186Z",
+    "end": "2022-12-08T00:36:13.833Z",
+    "duration": 9647,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ea949137-4837-4dde-b189-419505f143a6",
+      "title": "",
+      "fullFile": "cypress/tests/SRCardListTest.js",
+      "file": "cypress/tests/SRCardListTest.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "7334c73e-749f-49ad-b062-145e6aae05da",
+          "title": "Footer component Test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should be able to access links in footer component",
+              "fullTitle": "Footer component Test should be able to access links in footer component",
+              "timedOut": null,
+              "duration": 5922,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.visit(\"/\");\nlet showcaseComp = new _ShowcaseHeroComponent.default();\nshowcaseComp.cardDesc.invoke(\"text\").then(text => {\n  cy.log(text);\n}); // let riverContent = new RiverContentComponent()\n// riverContent.cardList().should(\"have.length\", 8)\n// riverContent.cardList().each((card, index) => {\n//     let newCar = new CardComponentNew(card)\n//     // cy.get(card).find(CardComponent.cardTag).invoke(\"text\").then(text => {\n//     //     cy.log(text, index)\n//     // })\n//     newCar.cardTitle.invoke(\"text\").then(text => {\n//         cy.log(text, index)\n//     })\n//     // cy.get(card).find(CardComponent.cardMeta).invoke(\"text\").then(text => {\n//     //     cy.log(text, index)\n//     // })\n// })\n// cy.get(\"[id^='river__content']\").within(() => {\n//     findComponent(\"[id^='card-list__item']\").each((card, index) => {\n//         findComponent(card).find(CardComponent.cardTag).invoke(\"text\").then(text => {\n//             cy.log(text, index)\n//         })\n//         findComponent(card).find(CardComponent.cardTitle).invoke(\"text\").then(text => {\n//             cy.log(text, index)\n//         })\n//         findComponent(card).find(CardComponent.cardMeta).invoke(\"text\").then(text => {\n//             cy.log(text, index)\n//         })\n//     })\n// })",
+              "err": {},
+              "uuid": "5a02b96b-54a2-4490-9f45-0f42cf08e6a6",
+              "parentUUID": "7334c73e-749f-49ad-b062-145e6aae05da",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5a02b96b-54a2-4490-9f45-0f42cf08e6a6"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5922,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
